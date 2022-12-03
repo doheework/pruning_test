@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "pruning";
+    src: url(pruning_va2VF.ttf) format("truetype-variations");
+    
+}
+
+body{
+    text-align:center;
+}
+
+:root{
+    --font-pruning: 200;
+}
+
+.title{
+    text-align:center;
+    font-family: "pruning";
+    font-variation-settings: 'wght' var(--font-pruning) ;
+    font-size: 27vw;
+}
+
+
